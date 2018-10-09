@@ -114,14 +114,14 @@ white to green:
   font-size: 3rem;
   font-family: "ralewayMedium";
 	color: #D1DBBD;
-	margin-bottom: 3rem;
+	margin: 3rem 0;
 }
 .main-title-part-2
 {
   font-size: 3rem;
   font-family: "ralewayMedium";
 	color: #193441;
-	margin-bottom: 3rem;
+	margin: 3rem 0;
 }
 .second-title-part-1
 {
@@ -144,6 +144,7 @@ i
 
 
 /* SPECIFIC */
+
 
 /* OPEN ROW */
 
