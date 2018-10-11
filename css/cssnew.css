@@ -63,6 +63,8 @@ white to green:
 {
 	background: url("../images/pc.jpg") no-repeat fixed;
   background-size: cover;
+	display: flex;
+  flex-direction: column;
 }
 
 .row
@@ -71,11 +73,6 @@ white to green:
   min-height: 30rem;
 	align-items: center;
 	padding-top: 1rem;
-}
-#main
-{
-  display: flex;
-  flex-direction: column;
 }
 .flex-column
 {
@@ -114,14 +111,14 @@ white to green:
   font-size: 3rem;
   font-family: "ralewayMedium";
 	color: #D1DBBD;
-	margin: 3rem 0;
+	margin: 2rem 0;
 }
 .main-title-part-2
 {
   font-size: 3rem;
   font-family: "ralewayMedium";
 	color: #193441;
-	margin: 3rem 0;
+	margin: 2rem 0;
 }
 .second-title-part-1
 {
