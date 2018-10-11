@@ -58,7 +58,7 @@ $( document ).ready(() => {
     var y = $(this).scrollTop();
     if (y > 1080) {
       window.addEventListener('scroll', () => {
-    parallax.style.backgroundPositionY = 500 + -y / 5  + "px";
+    parallax.style.backgroundPositionY = 220 + -y / 11  + "px";
   });
   }
   });
