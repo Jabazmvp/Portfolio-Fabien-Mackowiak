@@ -424,7 +424,7 @@ footer
 #mentions-footer
 {
 	color:#D1DBBD;
-	font-family: "ralewayMedium"
+	font-family: "ralewayMedium";
 }
 .i
 {
@@ -441,6 +441,10 @@ footer
 .footer-a
 {
 	cursor: default;
+}
+#heart-footer
+{
+	color: #D1DBBD;
 }
 #row5
 {
@@ -480,10 +484,10 @@ footer
 	}
 }
 @media screen and (max-width: 715px) {
-#contain-arrow
-{
-	display: none;
-}
+	#contain-arrow
+	{
+		display: none;
+	}
 	.item
 	{
 	  width: 130px;
@@ -497,11 +501,47 @@ footer
 	}
 	#lienmail, #lientel
 	{
-		font-size: 1.3rem;
+		font-size: 1.4rem;
+		margin: 1rem 0rem;
+		text-decoration: underline;
 	}
 	.step-content-bloc-portfolio
 	{
-		width: 350px;
-		height: 175px;
+		width: 250px;
+		height: 125px;
+	}
+	.step-contact
+	{
+		margin: 4rem 0rem;
+		flex-direction: column;
+	}
+	#mentions-footer
+	{
+		font-size: 13px;
+		text-align: center;
+	}
+	#h1
+	{
+		font-size: 3.5rem;
+	}
+	#step-content-portfolio
+	{
+		margin: 1rem 0rem;
+	}
+	#alth1
+	{
+		font-size: 1rem;
+	}
+	#text-alert-carousel
+	{
+		padding: 0px 40px;
+	}
+	#img-alert-carousel
+	{
+		position: absolute;
+	}
+	#alert-carousel
+	{
+		padding: 0px;
 	}
 }
