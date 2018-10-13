@@ -1,18 +1,4 @@
 $( document ).ready(() => {
-  $(document).scroll(function() {
-    const y = $(this).scrollTop();
-    if (y > 450) {
-      $(".navigation-button").removeClass("navigation-button-off");
-  } else {
-    $(".navigation-button").addClass("navigation-button-off");
-  }
-  });
-
-  $(document).scroll(function() {
-    var y = $(this).scrollTop();
-    if (y) {
-      console.log(y)}
-  });
 
   var carousel = $(".carousel"),
       currdeg  = 0;
@@ -34,6 +20,7 @@ $( document ).ready(() => {
       "transform": "rotateY("+currdeg+"deg)"
     });
   }
+
   $('#div-white-arrow').on('click', () => {
 
     var target = $("#row1");
@@ -41,15 +28,6 @@ $( document ).ready(() => {
     $('html, body').stop().animate({
       scrollTop: $(target).offset().top
     }, 1000);
-  });
-
-  $(document).scroll(function() {
-    const y = $(this).scrollTop();
-    if (y > 2400) {
-      $(".barre-contact").removeClass("barre-hide");
-  } else {
-    $(".barre-contact").addClass("barre-hide");
-  }
   });
 
   // Parallax !

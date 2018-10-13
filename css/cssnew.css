@@ -333,6 +333,24 @@ i
 	position: absolute;
 	top: 14rem;
 }
+#skills-mobile
+{
+	display: none;
+	margin-bottom: 6rem;
+	align-items: center;
+	flex-direction: column;
+	width: 150px;
+	text-align: center;
+}
+#jqueryicon2
+{
+	width: 8rem;
+	height: 8rem;
+}
+.skills-mobile-img
+{
+	color: black;
+}
 
 /* ROW 3*/
 .step-content-bloc-portfolio
@@ -402,17 +420,6 @@ iframe
 	margin: 4rem 2rem;
 	align-items: center;
 }
-.barre-contact
-{
-	width: 3px;
-	height: 300px;
-	background-color: #193441;
-	transition: height 0.4s;
-}
-.barre-hide
-{
-	height: 0px;
-}
 
 /* ROW 5 FOOTER*/
 footer
@@ -426,14 +433,14 @@ footer
 	color:#D1DBBD;
 	font-family: "ralewayMedium";
 }
-.i
+.socialfooter
 {
 	color: #D1DBBD;
 	margin: 2rem 1rem;
 	cursor: pointer;
 	transition: transfrom 0.5s;
 }
-.i:hover
+.socialfooter:hover
 {
 	animation-name: shake;
 	animation-duration: 1s;
@@ -452,6 +459,8 @@ footer
 }
 
 /* MEDIA QUERIES */
+
+/* Tablet */
 
 @media screen and (max-width: 950px) {
 	.next
@@ -483,6 +492,9 @@ footer
 		margin-bottom: 0px;
 	}
 }
+
+/* Mobile */
+
 @media screen and (max-width: 715px) {
 	#contain-arrow
 	{
@@ -512,7 +524,7 @@ footer
 	}
 	.step-contact
 	{
-		margin: 4rem 0rem;
+		margin: 1rem 0rem;
 		flex-direction: column;
 	}
 	#mentions-footer
@@ -543,5 +555,30 @@ footer
 	#alert-carousel
 	{
 		padding: 0px;
+	}
+	#skills-mobile
+	{
+		display: block;
+	}
+	#row2h1
+	{
+		margin-bottom: 3rem;
+	}
+	.main-title-part-1, .main-title-part-2
+	{
+		font-size: 2.5rem;
+	}
+	.step-content-block-text
+	{
+		font-size: 1rem;
+	}
+	.step-content-bloc
+	{
+		padding: 2rem 1rem;
+	}
+
+	#row4
+	{
+		min-height: 20rem;
 	}
 }
