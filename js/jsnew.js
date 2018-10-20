@@ -2,7 +2,7 @@ $( document ).ready(() => {
 
   window.addEventListener("load", () =>{
     $(".loader").fadeOut(400);
-    $("html").style.height = "";
+    $("html").css("height","auto");
   });
   var carousel = $(".carousel"),
       currdeg  = 0;
