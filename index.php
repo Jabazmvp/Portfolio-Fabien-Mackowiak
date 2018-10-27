@@ -11,14 +11,13 @@
     <link rel="stylesheet" href="css/cssnew.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/x-icon" href="images/Icone discord.png" />
+    <?php include("nombre_visiteurs.php"); ?>
   </head>
   <body>
-
     <main id="main">
       <div class="loader">
         <img src="svg-loaders/puff.svg" id="img-loader" />
       </div>
-
       <!-- OPEN ROW -->
 
       <header class="d-flex flex-column" id="openrow">
@@ -80,11 +79,9 @@
               <h2>CSS</h2>
             </a>
 
-            <a href="https://jquery.com/" target="_blank" class="item c">
-              <div id="div-jquery-img">
-                <img src="images/jqueryicon.png" alt="jquery icon" id="jqueryicon">
-              </div>
-              <h2>jQuery</h2>
+            <a href="https://fr.wikipedia.org/wiki/PHP" target="_blank" class="item c">
+              <i class="fab fa-php fa-2x"></i>
+              <h2>PHP</h2>
             </a>
 
             <a href="https://www.javascript.com/" target="_blank" class="item d">
@@ -121,8 +118,8 @@
             <i class="fab fa-css3-alt fa-8x skills-mobile-img"></i>
           </a>
 
-          <a href="https://jquery.com/" target="_blank" class="skills-mobile-link">
-              <img src="images/jqueryicon2.png" alt="jquery icon" id="jqueryicon2">
+          <a href="https://fr.wikipedia.org/wiki/PHP" target="_blank" class="skills-mobile-link">
+              <i class="fab fa-php fa-8x skills-mobile-img"></i>
           </a>
 
           <a href="https://www.javascript.com/" target="_blank" class="skills-mobile-link">
@@ -202,10 +199,7 @@
         </p>
       </footer>
     </main>
-    <script
-     src="https://code.jquery.com/jquery-3.3.1.js"
-     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-     crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <script src="js/jsnew.js"></script>
      <script src="js/jquery-ui.js"></script>
   </body>
