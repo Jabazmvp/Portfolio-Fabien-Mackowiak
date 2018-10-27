@@ -33,7 +33,7 @@
 
       <!-- ROW 1 -->
 
-      <section class="row flex-column" id="row1">
+      <article class="row flex-column" id="row1">
         <h1 class="main-title-part-1">Ma démarche</h1>
         <div class="step-content">
           <div class="step-content-bloc">
@@ -43,22 +43,22 @@
             <h2 class="second-title-part-1">Ecoute</h2>
             <p class="step-content-bloc-text">Avant de toucher au code, je prends le temps d'écouter la demande du client concernant son projet. <br> Nous voyons ensuite comment le réaliser, de quelle(s) fonctionnalité(s) il devra être doté et quel thème de couleurs choisir.</p>
           </div>
-        <div class="step-content-bloc">
-          <div>
-            <i class="fas fa-sitemap fa-4x"></i>
+          <div class="step-content-bloc">
+            <div>
+              <i class="fas fa-sitemap fa-4x"></i>
+            </div>
+            <h2 class="second-title-part-1">Workflow</h2>
+            <p class="step-content-bloc-text">Mon workflow est basé sur l'efficacité. <br> Un design sobre et précis. <br> Mon but est que l'utilisateur puisse trouver l'information qu'il recherche rapidement, en naviguant sur un site agréable à utiliser.</p>
           </div>
-          <h2 class="second-title-part-1">Workflow</h2>
-          <p class="step-content-bloc-text">Mon workflow est basé sur l'efficacité. <br> Un design sobre et précis. <br> Mon but est que l'utilisateur puisse trouver l'information qu'il recherche rapidement, en naviguant sur un site agréable à utiliser.</p>
+          <div class="step-content-bloc">
+            <div>
+              <i class="fas fa-sync-alt fa-4x"></i>
+            </div>
+            <h2 class="second-title-part-1">Suivi</h2>
+            <p class="step-content-bloc-text">Une fois mis en ligne, le contenu du site doit rester à jour et son design aussi. <br> Je garde toujours un oeil sur mes réalisations afin d'assurer leur bon fonctionnement.</p>
+          </div>
         </div>
-      <div class="step-content-bloc">
-        <div>
-          <i class="fas fa-sync-alt fa-4x"></i>
-        </div>
-        <h2 class="second-title-part-1">Suivi</h2>
-        <p class="step-content-bloc-text">Une fois mis en ligne, le contenu du site doit rester à jour et son design aussi. <br> Je garde toujours un oeil sur mes réalisations afin d'assurer leur bon fonctionnement.</p>
-      </div>
-    </div>
-      </section>
+      </article>
 
       <!-- ROW 2 #Carousel -->
 

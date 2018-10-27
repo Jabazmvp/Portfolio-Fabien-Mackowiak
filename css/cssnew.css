@@ -265,16 +265,6 @@ i
 
 /* 3D CAROUSEL */
 
-#jqueryicon
-{
-	height: 4rem;
-	width: 4rem;
-}
-#div-jquery-img
-{
-	height: 3.7rem;
-}
-
 .container {
   margin: 0 auto;
   width: 200px;
@@ -367,11 +357,6 @@ i
 	flex-direction: column;
 	width: 150px;
 	text-align: center;
-}
-#jqueryicon2
-{
-	width: 8rem;
-	height: 8rem;
 }
 .skills-mobile-img
 {
