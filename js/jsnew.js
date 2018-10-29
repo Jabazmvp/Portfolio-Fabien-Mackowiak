@@ -44,4 +44,16 @@ $( document ).ready(() => {
   });
   }
   });
+
+  var parallax2 = document.querySelector("#row4");
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    
+      window.addEventListener('scroll', () => {
+    parallax2.style.backgroundPositionY = 220 + -y / 11  + "px";
+  });
+
+  });
+
+
 }); // onReadyEnd

@@ -142,6 +142,16 @@
         </div>
       </section>
 
+      <!-- ROW OBJECTIF -->
+
+      <section id="rowobjectifs" class="row">
+        <div class="d-flex">
+          <h2>Mes qualités</h2>
+          <div class="separation"></div>
+          <h2>Mes objectifs</h2>
+        </div>
+      </section>
+
       <!-- ROW 3 -->
 
       <section class="row flex-column" id="row3">
@@ -166,6 +176,8 @@
 
         </div>
       </section>
+
+
 
       <!-- ROW 4 -->
 
