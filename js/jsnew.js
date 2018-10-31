@@ -44,4 +44,51 @@ $( document ).ready(() => {
   });
   }
   });
+
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 2100) {
+      $(".separation").addClass("separation_open");
+  } else {
+      $(".separation").removeClass("separation_open");
+  }
+});
+
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 1320) {
+      console.log(y);
+  }});
+
+  $(".icon_div").click(function () {
+
+    if (!$(this).hasClass("icon_div_clicked")) {
+      $(".icon_div").removeClass("icon_div_clicked");
+      $(this).addClass("icon_div_clicked");
+    } else if ($(this).hasClass("icon_div_clicked")) {
+      $(this).removeClass("icon_div_clicked");
+      return console.log("0");
+    }
+    var idElt = $(this).attr('id');
+
+    switch (idElt) {
+      case "0":
+        console.log("BASE");
+        break;
+      case "1":
+        $(".all_texts").fadeOut(400, function () {
+          $(".text_1").fadeIn(400);
+        });
+        break;
+        case "2":
+        $(".all_texts").fadeOut(200, function () {
+          $(".text_2").fadeIn(200);
+        });
+          break;
+      default:
+    }
+  });
+
+
+
 }); // onReadyEnd

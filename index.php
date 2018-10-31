@@ -16,7 +16,7 @@
   <body>
     <main id="main">
       <div class="loader">
-        <img src="svg-loaders/puff.svg" id="img-loader" />
+        <img src="svg-loaders/tail-spin.svg" id="img-loader" />
       </div>
       <!-- OPEN ROW -->
 
@@ -38,21 +38,21 @@
         <div class="step-content">
           <div class="step-content-bloc">
             <div>
-              <i class="far fa-comments fa-4x"></i>
+              <i class="far fa-comments fa-4x i_blue"></i>
             </div>
             <h2 class="second-title-part-1">Ecoute</h2>
             <p class="step-content-bloc-text">Avant de toucher au code, je prends le temps d'écouter la demande du client concernant son projet. <br> Nous voyons ensuite comment le réaliser, de quelle(s) fonctionnalité(s) il devra être doté et quel thème de couleurs choisir.</p>
           </div>
           <div class="step-content-bloc">
             <div>
-              <i class="fas fa-sitemap fa-4x"></i>
+              <i class="fas fa-sitemap fa-4x i_blue"></i>
             </div>
             <h2 class="second-title-part-1">Workflow</h2>
             <p class="step-content-bloc-text">Mon workflow est basé sur l'efficacité. <br> Un design sobre et précis. <br> Mon but est que l'utilisateur puisse trouver l'information qu'il recherche rapidement, en naviguant sur un site agréable à utiliser.</p>
           </div>
           <div class="step-content-bloc">
             <div>
-              <i class="fas fa-sync-alt fa-4x"></i>
+              <i class="fas fa-sync-alt fa-4x i_blue"></i>
             </div>
             <h2 class="second-title-part-1">Suivi</h2>
             <p class="step-content-bloc-text">Une fois mis en ligne, le contenu du site doit rester à jour et son design aussi. <br> Je garde toujours un oeil sur mes réalisations afin d'assurer leur bon fonctionnement.</p>
@@ -134,6 +134,7 @@
             <i class="fab fa-wix fa-8x skills-mobile-img"></i>
           </a>
         </div>
+
         <!-- /Skills for mobile -->
 
         <div class="d-flex" id="alert-carousel">
@@ -141,6 +142,7 @@
           <p id="text-alert-carousel">D'autres compétences sont en cours d'apprentissage !</p>
         </div>
       </section>
+
 
       <!-- ROW 3 -->
 
@@ -167,17 +169,80 @@
         </div>
       </section>
 
+      <!-- ROW OBJECTIF -->
+
+      <section id="rowobjectifs" class="row">
+        <div class="step-content div-h2-objectifs">
+          <div class="separation"></div>
+          <h2 class="h2-objectifs">ME CONCERNANT</h2>
+          <div class="separation"></div>
+        </div>
+      </section>
+      <article id="articleobjectifs">
+        <div id="container_carousel_description">
+          <div class="d-flex center" id="container_icons_description">
+            <div class="d-flex flex-column icons_description">
+              <div class="icon_div" id="1">
+                <i class="fas fa-dumbbell fa-5x icons_about"></i>
+              </div>
+              <h3 class="h3_description">#Loisirs</h3>
+            </div>
+            <div class="d-flex flex-column icons_description">
+              <div class="icon_div" id="2">
+                <i class="fas fa-book fa-5x icons_about"></i>
+              </div>
+              <h3 class="h3_description">#Formation</h3>
+            </div>
+            <div class="d-flex flex-column icons_description">
+              <div class="icon_div" id="3">
+                <i class="fas fa-brain fa-5x icons_about"></i>
+              </div>
+              <h3 class="h3_description">#Qualités</h3>
+            </div>
+            <div class="d-flex flex-column icons_description">
+              <div class="icon_div" id="4">
+                <i class="fas fa-sort-amount-up fa-5x icons_about"></i>
+              </div>
+              <h3 class="h3_description">#Objectifs</h3>
+            </div>
+          </div>
+
+          <div id="text_container">
+            <div class="all_texts text_0">
+              <h3 class="title_text1">0</h3>
+              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
+            </div>
+            <div class="all_texts text_1 display_none" >
+              <h3 class="title_text1">1</h3>
+              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
+            </div>
+            <div class="all_texts text_2 display_none">
+              <h3 class="title_text1">2</h3>
+              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
+            </div>
+            <div class="all_texts text_3 display_none">
+              <h3 class="title_text1">3</h3>
+              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
+            </div>
+            <div class="all_texts text_4 display_none">
+              <h3 class="title_text1">4</h3>
+              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
       <!-- ROW 4 -->
 
       <section class="row flex-column" id="row4">
         <h1 class="main-title-part-2">Contact</h1>
           <div>
             <div class="step-contact">
-              <i class="fas fa-envelope fa-3x"></i>
+              <i class="fas fa-envelope fa-3x i_blue"></i>
               <a href="mailto:fmackodev@gmail.com" id="lienmail">fmackodev@gmail.com</a>
             </div>
             <div class="step-contact">
-              <i class="fas fa-phone fa-3x"></i>
+              <i class="fas fa-phone fa-3x i_blue"></i>
               <a href="tel:+33626277924" id="lientel">06 26 27 79 24</a>
             </div>
           </div>
