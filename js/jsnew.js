@@ -35,19 +35,19 @@ $( document ).ready(() => {
   });
 
   // Parallax !
-  var parallax = document.querySelector("#main");
+  var parallax = document.querySelector("#rowobjectifs");
   $(document).scroll(function() {
     var y = $(this).scrollTop();
-    if (y > 1080) {
+    if (y) {
       window.addEventListener('scroll', () => {
-    parallax.style.backgroundPositionY = 220 + -y / 11  + "px";
+    parallax.style.backgroundPositionY = -y / 7  + "px";
   });
   }
   });
 
   $(document).scroll(function() {
     var y = $(this).scrollTop();
-    if (y > 2100) {
+    if (y > 1470) {
       $(".separation").addClass("separation_open");
   } else {
       $(".separation").removeClass("separation_open");
@@ -60,34 +60,34 @@ $( document ).ready(() => {
       console.log(y);
   }});
 
-  $(".icon_div").click(function () {
+  function manageDiv(num) {
+    var str = ".text_" + num;
+    if ($(str).css("display") !== "none") {
+      $(".all_texts").stop().delay(250).hide(0);
+      $(".text_0").show(0);
+    } else {
+      $(".all_texts").stop().delay(250).hide(0);
+      $(str).show(0);
+    };
+  };
 
+  $(".icon_div").click(function () {
+    $(".all_texts").stop();
+    $(".text_container").addClass("text_container_changing");
+    setTimeout(function () {
+      $(".text_container").removeClass("text_container_changing");
+    }, 500)
     if (!$(this).hasClass("icon_div_clicked")) {
       $(".icon_div").removeClass("icon_div_clicked");
       $(this).addClass("icon_div_clicked");
     } else if ($(this).hasClass("icon_div_clicked")) {
       $(this).removeClass("icon_div_clicked");
-      return console.log("0");
     }
     var idElt = $(this).attr('id');
-
-    switch (idElt) {
-      case "0":
-        console.log("BASE");
-        break;
-      case "1":
-        $(".all_texts").fadeOut(400, function () {
-          $(".text_1").fadeIn(400);
-        });
-        break;
-        case "2":
-        $(".all_texts").fadeOut(200, function () {
-          $(".text_2").fadeIn(200);
-        });
-          break;
-      default:
-    }
+  manageDiv(idElt);
   });
+
+
 
 
 

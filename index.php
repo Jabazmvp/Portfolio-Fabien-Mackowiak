@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="author" content="Fabien Mackowiak">
     <meta name="description" content="Développeur web en formation chez O'clock. Portfolio, outils, contact... Tout y est ! Je suis disponible pour réaliser vos projets web en Haute-Savoie et sur la région de Genève.">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Développeur, Annecy, Taninges, Site, Web, Wix, Git, Github, Formation, O'clock, Fabien, Mackowiak, Samoëns, Verchaix, Morillon, Sixt, Haute-Savoie">
-    <title>Fabien Mackowiak | Développeur Web</title>
+    <title>Fabien Mackowiak | Création Site Internet | Taninges</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cssnew.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -16,7 +15,7 @@
   <body>
     <main id="main">
       <div class="loader">
-        <img src="svg-loaders/tail-spin.svg" id="img-loader" />
+        <img src="svg-loaders/tail-spin.svg" alt="Loader" id="img-loader" />
       </div>
       <!-- OPEN ROW -->
 
@@ -24,7 +23,8 @@
         <div class="d-flex flex-column" id="divfortitle">
           <h1 id="h1">Fabien Mackowiak</h1>
           <div id="hrfortitle"></div>
-          <span id="alth1">Développeur Front-End en formation</span>
+          <h2 class="alth1">Développeur Web</h2>
+          <h2 class="alth1">Taninges - Vallée du giffre - Genève</h2>
         </div>
         <div id="div-white-arrow">
           <img src="images/flecheblanche.png" alt="Fleche blanche pointant vers le bas" id="whitearrow">
@@ -34,27 +34,27 @@
       <!-- ROW 1 -->
 
       <article class="row flex-column" id="row1">
-        <h1 class="main-title-part-1">Ma démarche</h1>
+        <h2 class="main-title-part-1">Ma démarche</h2>
         <div class="step-content">
           <div class="step-content-bloc">
             <div>
               <i class="far fa-comments fa-4x i_blue"></i>
             </div>
-            <h2 class="second-title-part-1">Ecoute</h2>
+            <h3 class="second-title-part-1">Ecoute</h3>
             <p class="step-content-bloc-text">Avant de toucher au code, je prends le temps d'écouter la demande du client concernant son projet. <br> Nous voyons ensuite comment le réaliser, de quelle(s) fonctionnalité(s) il devra être doté et quel thème de couleurs choisir.</p>
           </div>
           <div class="step-content-bloc">
             <div>
               <i class="fas fa-sitemap fa-4x i_blue"></i>
             </div>
-            <h2 class="second-title-part-1">Workflow</h2>
+            <h3 class="second-title-part-1">Workflow</h3>
             <p class="step-content-bloc-text">Mon workflow est basé sur l'efficacité. <br> Un design sobre et précis. <br> Mon but est que l'utilisateur puisse trouver l'information qu'il recherche rapidement, en naviguant sur un site agréable à utiliser.</p>
           </div>
           <div class="step-content-bloc">
             <div>
               <i class="fas fa-sync-alt fa-4x i_blue"></i>
             </div>
-            <h2 class="second-title-part-1">Suivi</h2>
+            <h3 class="second-title-part-1">Suivi</h3>
             <p class="step-content-bloc-text">Une fois mis en ligne, le contenu du site doit rester à jour et son design aussi. <br> Je garde toujours un oeil sur mes réalisations afin d'assurer leur bon fonctionnement.</p>
           </div>
         </div>
@@ -64,39 +64,39 @@
 
       <section class="row flex-column" id="row2">
 
-        <h1 class="main-title-part-1" id="row2h1">Mes outils</h1>
+        <h2 class="main-title-part-1" id="row2h1">Mes outils</h2>
 
         <div class="container">
           <div class="carousel">
 
             <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language" target="_blank" class="item a">
               <i class="fab fa-html5 fa-2x"></i>
-              <h2>HTML</h2>
+              <h3>HTML</h3>
             </a>
 
             <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade" target="_blank" class="item b">
               <i class="fab fa-css3-alt fa-2x"></i>
-              <h2>CSS</h2>
+              <h3>CSS</h3>
             </a>
 
             <a href="https://fr.wikipedia.org/wiki/PHP" target="_blank" class="item c">
               <i class="fab fa-php fa-2x"></i>
-              <h2>PHP</h2>
+              <h3>PHP</h3>
             </a>
 
             <a href="https://www.javascript.com/" target="_blank" class="item d">
               <i class="fab fa-js fa-2x"></i>
-              <h2>JavaScript</h2>
+              <h3>JavaScript</h3>
             </a>
 
             <a href="https://github.com/" target="_blank" class="item e">
               <i class="fab fa-github fa-2x"></i>
-              <h2>GitHub</h2>
+              <h3>GitHub</h3>
             </a>
 
             <a href="https://www.wix.com/code/home" target="_blank" class="item f">
               <i class="fab fa-wix fa-2x"></i>
-              <h2>Wix Code</h2>
+              <h3>Wix Code</h3>
             </a>
 
           </div>
@@ -143,20 +143,82 @@
         </div>
       </section>
 
-      <!-- ROW OBJECTIF -->
+        <!-- ROW OBJECTIF -->
 
       <section id="rowobjectifs" class="row">
-        <div class="d-flex">
-          <h2>Mes qualités</h2>
+        <div class="step-content div-h2-objectifs">
           <div class="separation"></div>
-          <h2>Mes objectifs</h2>
+          <h2 class="h2-objectifs">ME CONCERNANT</h2>
+          <div class="separation"></div>
         </div>
       </section>
+      <article id="articleobjectifs">
+        <div id="container_carousel_description">
+          <div class="d-flex center" id="container_icons_description">
+            <div class="d-flex flex-column icons_description">
+              <div class="icon_div" id="1">
+                <i class="fas fa-dumbbell fa-5x icons_about"></i>
+              </div>
+              <h3 class="h3_description">#Centre d'intérêts</h3>
+            </div>
+            <div class="d-flex flex-column icons_description">
+              <div class="icon_div" id="2">
+                <i class="fas fa-book fa-5x icons_about"></i>
+              </div>
+              <h3 class="h3_description">#Formation</h3>
+            </div>
+            <div class="d-flex flex-column icons_description">
+              <div class="icon_div" id="3">
+                <i class="fas fa-brain fa-5x icons_about"></i>
+              </div>
+              <h3 class="h3_description">#Compétences</h3>
+            </div>
+            <div class="d-flex flex-column icons_description">
+              <div class="icon_div" id="4">
+                <i class="fas fa-sort-amount-up fa-5x icons_about"></i>
+              </div>
+              <h3 class="h3_description">#Objectifs</h3>
+            </div>
+          </div>
 
-      <!-- ROW 3 -->
+          <div class="text_container">
+            <div class="all_texts text_0">
+              <h3 class="title_text1">Bienvenue</h3>
+              <p class="text_text1">N'hésitez pas à cliquer sur les icônes afin de découvrir les différentes rubriques.</p>
+            </div>
+            <div class="all_texts text_1 display_none" >
+              <h3 class="title_text1">Centre d'intérêts</h3>
+              <div class="d-flex center">
+                <div class="prev_loisirs">
+                  <i class="fas fa-angle-left fa-3x arrows_carousel_loisirs"></i>
+                </div>
+                <div class="carousel_loisirs">
+                </div>
+                <div class="next_loisirs">
+                  <i class="fas fa-angle-right fa-3x arrows_carousel_loisirs"></i>
+                </div>
+              </div>
+            </div>
+            <div class="all_texts text_2 display_none">
+              <h3 class="title_text1">Formation</h3>
+              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
+            </div>
+            <div class="all_texts text_3 display_none">
+              <h3 class="title_text1">Compétences</h3>
+              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
+            </div>
+            <div class="all_texts text_4 display_none">
+              <h3 class="title_text1">Objectifs</h3>
+              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+            <!-- ROW 3 -->
 
       <section class="row flex-column" id="row3">
-        <h1 class="main-title-part-2">Portfolio</h1>
+        <h2 class="main-title-part-2">Portfolio</h2>
         <div class="step-content" id="step-content-portfolio">
 
           <a href="https://www.alpesetcanyons.com/" target="_blank" class="step-content-bloc-portfolio">
@@ -178,73 +240,10 @@
         </div>
       </section>
 
-      <!-- ROW OBJECTIF -->
-
-      <section id="rowobjectifs" class="row">
-        <div class="step-content div-h2-objectifs">
-          <div class="separation"></div>
-          <h2 class="h2-objectifs">ME CONCERNANT</h2>
-          <div class="separation"></div>
-        </div>
-      </section>
-      <article id="articleobjectifs">
-        <div id="container_carousel_description">
-          <div class="d-flex center" id="container_icons_description">
-            <div class="d-flex flex-column icons_description">
-              <div class="icon_div" id="1">
-                <i class="fas fa-dumbbell fa-5x icons_about"></i>
-              </div>
-              <h3 class="h3_description">#Loisirs</h3>
-            </div>
-            <div class="d-flex flex-column icons_description">
-              <div class="icon_div" id="2">
-                <i class="fas fa-book fa-5x icons_about"></i>
-              </div>
-              <h3 class="h3_description">#Formation</h3>
-            </div>
-            <div class="d-flex flex-column icons_description">
-              <div class="icon_div" id="3">
-                <i class="fas fa-brain fa-5x icons_about"></i>
-              </div>
-              <h3 class="h3_description">#Qualités</h3>
-            </div>
-            <div class="d-flex flex-column icons_description">
-              <div class="icon_div" id="4">
-                <i class="fas fa-sort-amount-up fa-5x icons_about"></i>
-              </div>
-              <h3 class="h3_description">#Objectifs</h3>
-            </div>
-          </div>
-
-          <div id="text_container">
-            <div class="all_texts text_0">
-              <h3 class="title_text1">0</h3>
-              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
-            </div>
-            <div class="all_texts text_1 display_none" >
-              <h3 class="title_text1">1</h3>
-              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
-            </div>
-            <div class="all_texts text_2 display_none">
-              <h3 class="title_text1">2</h3>
-              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
-            </div>
-            <div class="all_texts text_3 display_none">
-              <h3 class="title_text1">3</h3>
-              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
-            </div>
-            <div class="all_texts text_4 display_none">
-              <h3 class="title_text1">4</h3>
-              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
-            </div>
-          </div>
-        </div>
-      </article>
-
       <!-- ROW 4 -->
 
       <section class="row flex-column" id="row4">
-        <h1 class="main-title-part-2">Contact</h1>
+        <h2 class="main-title-part-2">Contact</h2>
           <div>
             <div class="step-contact">
               <i class="fas fa-envelope fa-3x i_blue"></i>
@@ -276,5 +275,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <script src="js/jsnew.js"></script>
      <script src="js/jquery-ui.js"></script>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128679565-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-128679565-1');
+    </script>
+
   </body>
 </html>
