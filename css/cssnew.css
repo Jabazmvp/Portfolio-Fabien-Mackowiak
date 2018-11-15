@@ -138,7 +138,7 @@ html {
 	position: fixed;
 	left: 0;
 	top: 0;
-	z-index: 4000;
+	z-index: 10000;
 	text-align: center;
 }
 
@@ -156,6 +156,16 @@ html {
 	display: flex;
   flex-direction: column;
 }
+.reset_arrow
+{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	color: white;
+	z-index: 9000;
+	transition: 0.6s;
+	cursor: pointer;
+}
 .display_none
 {
 	display: none;
@@ -166,6 +176,10 @@ html {
   min-height: 30rem;
 	align-items: center;
 	padding-top: 1rem;
+}
+.hidden
+{
+	opacity: 0;
 }
 .div_techno
 {
@@ -423,7 +437,7 @@ html {
 
 .next, .prev, .prev_loisirs, .next_loisirs {
   cursor: pointer;
-	transition: margin-top 0.3s;
+	transition: margin-top 0.1s;
 }
 .carousel-arrow
 {
@@ -535,10 +549,22 @@ html {
 	align-items: center;
 	width: 70rem;
 }
+.desc_content
+{
+	color: white;
+	font-family: "latoLight";
+	text-align: center;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}
+.carousel_content
+{
+
+}
 .text_container_changing
 {
 	animation-name: changetext;
-	animation-duration: 0.5s;
+	animation-duration: 1s;
 }
 .icons_description
 {
@@ -588,15 +614,19 @@ html {
 	color: #497183;
 	font-family: "latoLight",Arial,Helvetica,sans-serif;
 }
-.carousel_loisirs
+.images_carousel
 {
-	height: 8rem;
-	width: 4rem;
-	overflow: hidden;
+
 }
 .arrows_carousel_loisirs
 {
 	color: white;
+}
+#container_loisirs_carousel
+{
+	width: 10rem;
+	margin: 0 auto;
+	overflow: hidden;
 }
 /* ROW 5 */
 

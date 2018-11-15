@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="author" content="Fabien Mackowiak">
     <meta name="description" content="Développeur web en formation chez O'clock. Portfolio, outils, contact... Tout y est ! Je suis disponible pour réaliser vos projets web en Haute-Savoie et sur la région de Genève.">
-    <title>Fabien Mackowiak | Création Site Internet | Taninges</title>
+    <title>Fabien Mackowiak | Création Site Internet | Région de Genève</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cssnew.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/x-icon" href="images/Icone discord.png" />
     <?php include("nombre_visiteurs.php"); ?>
@@ -24,12 +26,16 @@
           <h1 id="h1">Fabien Mackowiak</h1>
           <div id="hrfortitle"></div>
           <h2 class="alth1">Développeur Web</h2>
-          <h2 class="alth1">Taninges - Vallée du giffre - Genève</h2>
+          <h2 class="alth1">Vallée du giffre - Genève</h2>
         </div>
         <div id="div-white-arrow">
           <img src="images/flecheblanche.png" alt="Fleche blanche pointant vers le bas" id="whitearrow">
         </div>
       </header>
+
+      <div class="reset_arrow hidden">
+        <i class="far fa-arrow-alt-circle-up fa-4x"></i>
+      </div>
 
       <!-- ROW 1 -->
 
@@ -188,15 +194,27 @@
             </div>
             <div class="all_texts text_1 display_none" >
               <h3 class="title_text1">Centre d'intérêts</h3>
-              <div class="d-flex center">
-                <div class="prev_loisirs">
-                  <i class="fas fa-angle-left fa-3x arrows_carousel_loisirs"></i>
-                </div>
-                <div class="carousel_loisirs">
-                </div>
-                <div class="next_loisirs">
-                  <i class="fas fa-angle-right fa-3x arrows_carousel_loisirs"></i>
-                </div>
+              <div class="d-flex center" id="container_loisirs_carousel">
+                
+                  <div class="owl-carousel carousel_loisirs">
+                    <div class="carousel_content">
+                      <img src="images/skiing.svg" class="images_carousel" alt="">
+                      <h3 class="desc_content">Freeski</h3>
+                    </div>
+                    <div class="carousel_content">
+                      <img src="images/document.png" class="images_carousel" alt="">
+                      <h3 class="desc_content">Freeski</h3>
+                    </div>
+                    <div class="carousel_content">
+                      <img src="images/328.png" class="images_carousel" alt="">
+                      <h3 class="desc_content">Freeski</h3>
+                    </div>
+                    <div class="carousel_content">
+                      <img src="images/logoalpes.png" class="images_carousel" alt="">
+                      <h3 class="desc_content">Freeski</h3>
+                    </div>
+                  </div>
+
               </div>
             </div>
             <div class="all_texts text_2 display_none">
@@ -214,6 +232,7 @@
           </div>
         </div>
       </article>
+
 
             <!-- ROW 3 -->
 
@@ -284,6 +303,6 @@
 
       gtag('config', 'UA-128679565-1');
     </script>
-
+    <script src="owlcarousel/owl.carousel.min.js"></script>
   </body>
 </html>

@@ -1,11 +1,24 @@
-$( document ).ready(() => {
-
-  window.addEventListener("load", () =>{
+$(() => {
     $(".loader").fadeOut(400);
     $("html").css("height","auto");
-  });
+
   var carousel = $(".carousel"),
       currdeg  = 0;
+  $(".owl-carousel").owlCarousel({
+    margin:80,
+    responsiveClass:true,
+    center: true,
+    responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      1440:{
+          items:1,
+          nav:true
+      }
+    }
+  });
 
   $(".next").on("click", { d: "n" }, rotate);
   $(".prev").on("click", { d: "p" }, rotate);
@@ -40,33 +53,46 @@ $( document ).ready(() => {
     var y = $(this).scrollTop();
     if (y) {
       window.addEventListener('scroll', () => {
-    parallax.style.backgroundPositionY = -y / 7  + "px";
+    parallax.style.backgroundPositionY = 100 + -y / 10  + "px";
   });
   }
   });
 
   $(document).scroll(function() {
-    var y = $(this).scrollTop();
-    if (y > 1470) {
-      $(".separation").addClass("separation_open");
-  } else {
-      $(".separation").removeClass("separation_open");
-  }
-});
+      var y = $(this).scrollTop();
+      if (y > 1470) {
+        $(".separation").addClass("separation_open");
+    } else {
+        $(".separation").removeClass("separation_open");
+    }
+  });
+
+  $(document).scroll(function() {
+      var y = $(this).scrollTop();
+      if (y > 400) {
+        $(".reset_arrow").removeClass("hidden");
+    } else {
+        $(".reset_arrow").addClass("hidden");
+    }
+  });
+
+  $(".reset_arrow").click(() => {
+    $("html, body").animate({ scrollTop: 0 }, 1000);
+  });
 
   $(document).scroll(function() {
     var y = $(this).scrollTop();
-    if (y > 1320) {
+    if (y) {
       console.log(y);
   }});
 
   function manageDiv(num) {
     var str = ".text_" + num;
     if ($(str).css("display") !== "none") {
-      $(".all_texts").stop().delay(250).hide(0);
+      $(".all_texts").stop().delay(500).hide(0);
       $(".text_0").show(0);
     } else {
-      $(".all_texts").stop().delay(250).hide(0);
+      $(".all_texts").stop().delay(500).hide(0);
       $(str).show(0);
     };
   };
@@ -76,7 +102,7 @@ $( document ).ready(() => {
     $(".text_container").addClass("text_container_changing");
     setTimeout(function () {
       $(".text_container").removeClass("text_container_changing");
-    }, 500)
+    }, 1000)
     if (!$(this).hasClass("icon_div_clicked")) {
       $(".icon_div").removeClass("icon_div_clicked");
       $(this).addClass("icon_div_clicked");
@@ -86,8 +112,6 @@ $( document ).ready(() => {
     var idElt = $(this).attr('id');
   manageDiv(idElt);
   });
-
-
 
 
 
