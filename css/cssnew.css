@@ -551,15 +551,16 @@ html {
 }
 .desc_content
 {
-	color: white;
+	color: #1E9682;
 	font-family: "latoLight";
+	font-weight: bold;
 	text-align: center;
   margin: 2rem 0;
   font-size: 1.5rem;
 }
 .carousel_content
 {
-
+	width: 240px;
 }
 .text_container_changing
 {
@@ -614,17 +615,13 @@ html {
 	color: #497183;
 	font-family: "latoLight",Arial,Helvetica,sans-serif;
 }
-.images_carousel
-{
-
-}
 .arrows_carousel_loisirs
 {
 	color: white;
 }
 #container_loisirs_carousel
 {
-	width: 10rem;
+	width: 15rem;
 	margin: 0 auto;
 	overflow: hidden;
 }

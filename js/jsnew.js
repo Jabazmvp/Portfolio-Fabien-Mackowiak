@@ -1,13 +1,17 @@
 $(() => {
     $(".loader").fadeOut(400);
     $("html").css("height","auto");
-
+    $('.carousel_loisirs').trigger('refresh.owl.carousel')
   var carousel = $(".carousel"),
       currdeg  = 0;
   $(".owl-carousel").owlCarousel({
     margin:80,
+    loop: true,
     responsiveClass:true,
-    center: true,
+    autoHeight: true,
+    autoplay:true,
+    autoplayTimeout:1700,
+    autoplayHoverPause:true,
     responsive:{
       0:{
           items:1,
@@ -19,6 +23,8 @@ $(() => {
       }
     }
   });
+
+
 
   $(".next").on("click", { d: "n" }, rotate);
   $(".prev").on("click", { d: "p" }, rotate);
