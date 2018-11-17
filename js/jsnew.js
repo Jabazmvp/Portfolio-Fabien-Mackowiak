@@ -12,14 +12,14 @@ $(() => {
     autoplay:true,
     autoplayTimeout:1700,
     autoplayHoverPause:true,
+    nav: false,
+    dots: false,
     responsive:{
       0:{
           items:1,
-          nav:true
       },
       1440:{
           items:1,
-          nav:true
       }
     }
   });
@@ -54,15 +54,7 @@ $(() => {
   });
 
   // Parallax !
-  var parallax = document.querySelector("#rowobjectifs");
-  $(document).scroll(function() {
-    var y = $(this).scrollTop();
-    if (y) {
-      window.addEventListener('scroll', () => {
-    parallax.style.backgroundPositionY = 100 + -y / 10  + "px";
-  });
-  }
-  });
+  $('.parallax-window').parallax({imageSrc: 'images/objectifs.jpg'});
 
   $(document).scroll(function() {
       var y = $(this).scrollTop();

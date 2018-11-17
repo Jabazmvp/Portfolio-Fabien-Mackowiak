@@ -151,13 +151,14 @@
 
         <!-- ROW OBJECTIF -->
 
-      <section id="rowobjectifs" class="row">
+      <section class="row parallax-window" data-parallax="scroll" data-image-src="images/objectifs.jpg">>
         <div class="step-content div-h2-objectifs">
           <div class="separation"></div>
           <h2 class="h2-objectifs">ME CONCERNANT</h2>
           <div class="separation"></div>
         </div>
       </section>
+
       <article id="articleobjectifs">
         <div id="container_carousel_description">
           <div class="d-flex center" id="container_icons_description">
@@ -165,7 +166,7 @@
               <div class="icon_div" id="1">
                 <i class="fas fa-dumbbell fa-5x icons_about"></i>
               </div>
-              <h3 class="h3_description">#Centre d'intérêts</h3>
+              <h3 class="h3_description">#Centres d'intérêts</h3>
             </div>
             <div class="d-flex flex-column icons_description">
               <div class="icon_div" id="2">
@@ -189,49 +190,172 @@
 
           <div class="text_container">
             <div class="all_texts text_0">
-              <h3 class="title_text1">Bienvenue</h3>
-              <p class="text_text1">N'hésitez pas à cliquer sur les icônes afin de découvrir les différentes rubriques.</p>
+                <h3 class="title_opening">Bienvenue</h3>
+                <p class="text_opening">N'hésitez pas à cliquer sur les icônes afin de découvrir les différentes rubriques.</p>
             </div>
             <div class="all_texts text_1 display_none">
-              <h3 class="title_text1">Centre d'intérêts</h3>
+              <div class="div_carousel_container">
+                <div class="carousel_centre_interets">
+                  <h3 class="title_carousel">Centres d'intérêts</h3>
 
-              <div class="d-flex center" id="container_loisirs_carousel">
-                <div class="owl-carousel carousel_loisirs">
-                  <div class="carousel_content">
-                    <img src="images/skiing.svg" class="images_carousel" alt="Ski">
-                    <h3 class="desc_content">Freeski</h3>
-                  </div>
-                  <div class="carousel_content">
-                    <img src="images/lol.svg" class="images_carousel" alt="League of Legends">
-                    <h3 class="desc_content">League of Legends</h3>
-                  </div>
-                  <div class="carousel_content">
-                    <img src="images/mountain.svg" class="images_carousel" alt="Montagne">
-                    <h3 class="desc_content">Nature</h3>
-                  </div>
-                  <div class="carousel_content">
-                    <img src="images/online-learning.svg" class="images_carousel" alt="Apprendre">
-                    <h3 class="desc_content">Apprendre</h3>
-                  </div>
-                  <div class="carousel_content">
-                    <img src="images/coding.svg" class="images_carousel" alt="Code">
-                    <h3 class="desc_content">Développer</h3>
+                  <div class="d-flex center" id="container_loisirs_carousel">
+                    <div class="owl-carousel carousel_loisirs">
+                      <div class="carousel_content">
+                        <img src="images/skiing.svg" class="images_carousel" alt="Ski">
+                        <h3 class="desc_content">Freeski</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/lol.svg" class="images_carousel" alt="League of Legends">
+                        <h3 class="desc_content">League of Legends</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/mountain.svg" class="images_carousel" alt="Montagne">
+                        <h3 class="desc_content">Nature</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/online-learning.svg" class="images_carousel" alt="Apprendre">
+                        <h3 class="desc_content">Learning</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/coding.svg" class="images_carousel" alt="Code">
+                        <h3 class="desc_content">Développement</h3>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
 
+                <div class="separation_carousel"></div>
+
+                <p class="text_carousel">
+                  Les activités outdoor prennent une grande place dans ma vie, en particulier le ski, que je pratique depuis mes 2 ans. <br>
+                  Elles me permettent de me dépenser, de faire respirer mon corps pour être toujours plus efficace dans la réalisation de mes projets. <br>
+                  Dans mes loisirs comme dans le code, me fixer des objectifs, les accomplire, et aller toujours plus loin font entièrement partie de mon tempérament.
+                </p>
+
+              </div>
             </div>
             <div class="all_texts text_2 display_none">
-              <h3 class="title_text1">Formation</h3>
-              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
+              <div class="div_carousel_container">
+                <div class="carousel_centre_interets">
+                  <h3 class="title_carousel">Centres d'intérêts</h3>
+
+                  <div class="d-flex center" id="container_loisirs_carousel">
+                    <div class="owl-carousel carousel_loisirs">
+                      <div class="carousel_content">
+                        <img src="images/skiing.svg" class="images_carousel" alt="Ski">
+                        <h3 class="desc_content">Freeski</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/lol.svg" class="images_carousel" alt="League of Legends">
+                        <h3 class="desc_content">League of Legends</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/mountain.svg" class="images_carousel" alt="Montagne">
+                        <h3 class="desc_content">Nature</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/online-learning.svg" class="images_carousel" alt="Apprendre">
+                        <h3 class="desc_content">Learning</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/coding.svg" class="images_carousel" alt="Code">
+                        <h3 class="desc_content">Développement</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="separation_carousel"></div>
+
+                <p class="text_carousel">
+                  Les activités outdoor prennent une grande place dans ma vie, en particulier le ski, que je pratique depuis mes 2 ans. <br>
+                  Elles me permettent de me dépenser, de faire respirer mon corps pour être toujours plus efficace dans la réalisation de mes projets. <br>
+                  Dans mes loisirs comme dans le code, me fixer des objectifs, les accomplire et aller toujours plus loin font entièrement partie de mon tempérament.
+                </p>
+
+              </div>
             </div>
             <div class="all_texts text_3 display_none">
-              <h3 class="title_text1">Compétences</h3>
-              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
+              <div class="div_carousel_container">
+                <div class="carousel_centre_interets">
+                  <h3 class="title_carousel">Centres d'intérêts</h3>
+
+                  <div class="d-flex center" id="container_loisirs_carousel">
+                    <div class="owl-carousel carousel_loisirs">
+                      <div class="carousel_content">
+                        <img src="images/skiing.svg" class="images_carousel" alt="Ski">
+                        <h3 class="desc_content">Freeski</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/lol.svg" class="images_carousel" alt="League of Legends">
+                        <h3 class="desc_content">League of Legends</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/mountain.svg" class="images_carousel" alt="Montagne">
+                        <h3 class="desc_content">Nature</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/online-learning.svg" class="images_carousel" alt="Apprendre">
+                        <h3 class="desc_content">Learning</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/coding.svg" class="images_carousel" alt="Code">
+                        <h3 class="desc_content">Développement</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="separation_carousel"></div>
+
+                <p class="text_carousel">
+                  Les activités outdoor prennent une grande place dans ma vie, en particulier le ski, que je pratique depuis mes 2 ans. <br>
+                  Elles me permettent de me dépenser, de faire respirer mon corps pour être toujours plus efficace dans la réalisation de mes projets. <br>
+                  Dans mes loisirs comme dans le code, me fixer des objectifs, les accomplire, et aller toujours plus loin font entièrement partie de mon tempérament..
+                </p>
+
+              </div>
             </div>
             <div class="all_texts text_4 display_none">
-              <h3 class="title_text1">Objectifs</h3>
-              <p class="text_text1">N'hésitez pas à cliquer sur les différents icônes ci-dessus afin de découvrir les différentes rubriques.</p>
+              <div class="div_carousel_container">
+                <div class="carousel_centre_interets">
+                  <h3 class="title_carousel">Centres d'intérêts</h3>
+
+                  <div class="d-flex center" id="container_loisirs_carousel">
+                    <div class="owl-carousel carousel_loisirs">
+                      <div class="carousel_content">
+                        <img src="images/skiing.svg" class="images_carousel" alt="Ski">
+                        <h3 class="desc_content">Freeski</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/lol.svg" class="images_carousel" alt="League of Legends">
+                        <h3 class="desc_content">League of Legends</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/mountain.svg" class="images_carousel" alt="Montagne">
+                        <h3 class="desc_content">Nature</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/online-learning.svg" class="images_carousel" alt="Apprendre">
+                        <h3 class="desc_content">Learning</h3>
+                      </div>
+                      <div class="carousel_content">
+                        <img src="images/coding.svg" class="images_carousel" alt="Code">
+                        <h3 class="desc_content">Développement</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="separation_carousel"></div>
+
+                <p class="text_carousel">
+                  Les activités outdoor prennent une grande place dans ma vie, en particulier le ski, que je pratique depuis mes 2 ans. <br>
+                  Elles me permettent de me dépenser, de faire respirer mon corps pour être toujours plus efficace dans la réalisation de mes projets. <br>
+                  Dans mes loisirs comme dans le code, me fixer des objectifs, les accomplire, et aller toujours plus loin font entièrement partie de mon tempérament..
+                </p>
+
+              </div>
             </div>
           </div>
         </div>
@@ -298,6 +422,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <script src="js/jsnew.js"></script>
      <script src="js/jquery-ui.js"></script>
+     <script src="js/parallax.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/parallax.min.js"></script>
+     <script src="owlcarousel/owl.carousel.min.js"></script>
      <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128679565-1"></script>
     <script>
@@ -307,6 +434,6 @@
 
       gtag('config', 'UA-128679565-1');
     </script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+
   </body>
 </html>
