@@ -1,4 +1,4 @@
-$(() => {
+$(window).on('load', () => {
     $(".loader").fadeOut(400);
     $("html").css("height","auto");
     $('.carousel_loisirs').trigger('refresh.owl.carousel')

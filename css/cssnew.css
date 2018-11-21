@@ -140,13 +140,15 @@ html {
 	top: 0;
 	z-index: 10000;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #img-loader
 {
 	height: 200px;
 	width: auto;
-	margin-top: 300px;
 }
 
 /* BLOC GENERAL */
