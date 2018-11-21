@@ -10,15 +10,12 @@ $(() => {
     responsiveClass:true,
     autoHeight: true,
     autoplay:true,
-    autoplayTimeout:1700,
+    autoplayTimeout:1500,
     autoplayHoverPause:true,
     nav: false,
     dots: false,
     responsive:{
       0:{
-          items:1,
-      },
-      1440:{
           items:1,
       }
     }
@@ -103,9 +100,12 @@ $(() => {
     }, 1000)
     if (!$(this).hasClass("icon_div_clicked")) {
       $(".icon_div").removeClass("icon_div_clicked");
+      $(".icons_about").removeClass("icon_svg_clicked")
       $(this).addClass("icon_div_clicked");
+      $(this).find("svg").addClass("icon_svg_clicked");
     } else if ($(this).hasClass("icon_div_clicked")) {
       $(this).removeClass("icon_div_clicked");
+        $(this).find("svg").removeClass("icon_svg_clicked");
     }
     var idElt = $(this).attr('id');
   manageDiv(idElt);
