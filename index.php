@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#193441">
     <meta name="author" content="Fabien Mackowiak">
     <meta name="description" content="Développeur web en formation chez O'clock. Portfolio, outils, contact... Tout y est ! Je suis disponible pour réaliser vos projets web en Haute-Savoie et sur la région de Genève.">
     <title>Fabien Mackowiak | Création Site Internet | Région de Genève</title>
@@ -19,6 +20,7 @@
       <div class="loader">
         <img src="svg-loaders/tail-spin.svg" alt="Loader" id="img-loader" />
       </div>
+
       <!-- OPEN ROW -->
 
       <header class="d-flex flex-column" id="openrow">
