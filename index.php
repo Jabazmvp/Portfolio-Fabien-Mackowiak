@@ -6,6 +6,10 @@
     <meta name="theme-color" content="#193441">
     <meta name="author" content="Fabien Mackowiak">
     <meta name="description" content="Développeur web en formation chez O'clock. Portfolio, outils, contact... Tout y est ! Je suis disponible pour réaliser vos projets web en Haute-Savoie et sur la région de Genève.">
+    <meta property="og:title" content="Fabien Mackowiak" />
+    <meta property="og:description" content="Développeur web en formation chez O'clock." />
+    <meta property="og:url" content="https://www.fabienmackowiak.com" />
+    <meta property="og:image" content="https://www.fabienmackowiak.com/images/328.png" />
     <title>Fabien Mackowiak | Création Site Internet | Région de Genève</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cssnew.css">
