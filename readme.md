@@ -1,6 +1,6 @@
 # Site vitrine présentant Fabien
 
-## Codé à mes débuts en
+### Codé à mes débuts en
 * HTML
 * CSS
 * JS
